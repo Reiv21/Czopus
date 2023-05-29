@@ -17,6 +17,7 @@ nav{
     text-align: center;
     background-color: white;
     height: 60px;
+    text-transform: uppercase;
 }
 img {
     width: 150px;
