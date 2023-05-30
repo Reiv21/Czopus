@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 body {
     background-color: #f8eede;
@@ -19,7 +20,7 @@ nav{
     height: 60px;
     text-transform: uppercase;
 }
-img {
+nav > a > img {
     width: 150px;
     margin: 0px 20px;
     margin-left: 50px;
@@ -70,4 +71,151 @@ ol > li > ul > li:hover > a{
 } 
 ol > li:hover > ul{
     display: block;
+}
+.poczatek {
+    background-image: url("pliki/tlo.jpg");
+    display: flex;
+    width: 100%;
+    height: 600px;
+    padding: 0 5%;
+    margin: auto;
+}
+.zdjecie_poczatek {
+    width: 50%;
+}
+.poczatek img{
+    width: 100%;
+}
+.text_poczatek {
+    width: 50%;
+}
+.text_poczatek h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+}
+.text_poczatek h2 {
+    text-align: center;
+    padding: 0px 70px;
+    font-size: 35px;
+}
+.zagraj_w_fifa{
+    margin-top: 100px;
+    background-color: #a38e6a;
+    padding: 0 100px;
+}
+.zagraj_w_fifa > h2{
+    margin-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 60px;
+}
+.flex_zagraj_w_fifa {
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+}
+.flex_zagraj_w_fifa div{
+    width: 48%;
+}
+.flex_zagraj_w_fifa div img{
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.flex_zagraj_w_fifa div h3{ 
+    width: 100%;
+    font-size: 50px;
+}
+.flex_zagraj_w_fifa div p{ 
+    padding: 5px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.nowosci {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.nowosci > div {
+    height: 800px;
+    width: 49.5%;
+}
+.nowosci > div > img {
+    width: 100%;
+}
+.nowosci > div > h3 {
+    font-size: 40px;
+}
+.nowosci > div > p {
+    font-size: 30px;
+}
+.wiecej_w_fifa {
+    margin-top: 125px;
+}
+.wiecej_w_fifa_flex {
+
+}
+.wiecej_w_fifa h2{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 65px;
+}
+.wiecej_w_fifa_flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.wiecej_w_fifa_flex > div{
+    padding: 25px 20px;
+    background-color: #1c1f26;
+    height: 200px;
+    width: 400px;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 200px;
+}
+
+
+
+.pilkarze {
+  height: 600px;
+  width: 100%;
+  padding: 0 5%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+.pilkarz {
+  width: 400px;
+  height: 500px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.img_pilkarza {
+  height: 60%;
+  width: 100%;
+  background-color: blue;
+}
+.pilkarz h2 {
+    text-align: center;
+}
+.pilkarz p {
+    padding: 10px;
+    text-align: justify;
+}
+footer {
+    background-color: white;
+    height: 200px;
+}
+footer img{
+    width: 400px;
+    margin: 40px;
 }
