@@ -238,6 +238,43 @@ ol > li:hover > ul{
     text-align: justify;
     font-size: 20px;
 }
+
+.galeria_h1 h1{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.trzymacz_zdjec{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trzymacz_zdjec > div {
+    width: 47%;
+    height: 500px;
+    margin-top: 85px;
+    border-radius: 20px;
+}
+.trzymacz_zdjec > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.trzymacz_zdjec > div:nth-of-type(odd) > img:hover{
+    opacity: 0.9;
+    transform: rotate(-1deg); 
+    transition-duration: 0.5s;
+}
+.trzymacz_zdjec > div:nth-of-type(even) > img:hover{
+    opacity: 0.9;
+    transform: rotate(1deg); 
+    transition-duration: 0.5s;
+}
+
 footer {
     display: flex;
     background-color: white;
