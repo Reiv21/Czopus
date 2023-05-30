@@ -24,11 +24,11 @@ nav{
     padding: 10px 0;
     text-align: center;
     background-color: white;
-    height: 80px;
+    height: 65px;
     text-transform: uppercase;
 }
 nav > a > img {
-    width: 220px;
+    width: 170px;
     margin: 0px 20px;
     margin-left: 50px;
 }
@@ -37,7 +37,7 @@ ol{
     padding: 0;
     margin: 0;
     list-style-type: none;
-    font-size: 28px;
+    font-size: 22px;
     height: 35px;
     line-height: 200%;
 }
@@ -198,34 +198,45 @@ ol > li:hover > ul{
 }
 
 
-
-.pilkarze {
+.kluby_h1 > h1{
+    margin: 50px 0;
+    font-size: 60px;
+    text-align: center;
+}
+.kluby {
   height: 600px;
   width: 100%;
   padding: 0 5%;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-around
 }
-.pilkarz {
+.klub {
+    border-radius: 25px;
   width: 400px;
   height: 500px;
-  background-color: red;
+  background-color: #a38e6a;
   display: flex;
   flex-direction: column;
 }
-.img_pilkarza {
-  height: 60%;
-  width: 100%;
-  background-color: blue;
+.img_klubu {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
 }
-.pilkarz h2 {
+.img_klubu img{
+    height: 100%;
+    padding: 5px;
+  }
+.klub h2 {
+    font-size: 50px;
     text-align: center;
 }
-.pilkarz p {
-    padding: 10px;
+.klub p {
+    padding:  10px 25px;
     text-align: justify;
+    font-size: 20px;
 }
 footer {
     display: flex;
