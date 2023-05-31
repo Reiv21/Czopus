@@ -291,7 +291,23 @@ ol > li:hover > ul{
     transform: rotate(1deg); 
     transition-duration: 0.5s;
 }
-
+.zrodla {
+    margin: 100px 0;
+    padding: 0 200px;
+}
+.zrodla h2 {
+    font-size: 50px;
+    text-align: center;
+}
+.zrodla ul{
+    list-style-type: disc;
+}
+.zrodla ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+    /* bez tego nie wyswietlalo punkcikow */
+    font-size: 30px;
+}
 footer {
     display: flex;
     background-color: white;
