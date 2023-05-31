@@ -63,6 +63,7 @@ ol > li > ul{
     margin: 0;
     height: 40px;
     display: none;
+    /* Normalnie nie wyswietla sie */
 }
 ol > li > ul > li{
     font-size: 18px;
@@ -71,6 +72,7 @@ ol > li > ul > li{
     position: relative;
     z-index: 100;
     border-top: 1px dashed #000000;
+        /* Ustawia index na wysoko zeby bylo na wierzchu i robi position relative*/
 }
 ol > li > ul > li:hover{
     background-color: rgb(255, 79, 30);
@@ -80,6 +82,7 @@ ol > li > ul > li:hover > a{
 } 
 ol > li:hover > ul{
     display: block;
+    /* Po najechaniu staje sie widoczne */
 }
 .poczatek {
     background-image: url("pliki/tlo.jpg");
@@ -88,15 +91,19 @@ ol > li:hover > ul{
     height: 600px;
     padding: 0 5%;
     margin: auto;
+    /* dodaje  zdjecie w tle, centruje sie*/
 }
 .zdjecie_poczatek {
     width: 50%;
+    /* ustawia div z zdjeciem z boiskiem na 50% */
 }
 .poczatek img{
     width: 100%;
+    /* ustawia zdjecie na 100% kontenera */
 }
 .text_poczatek {
     width: 50%;
+    /* tekst na polowe */
 }
 .text_poczatek h1 {
     text-align: center;
@@ -112,17 +119,21 @@ ol > li:hover > ul{
     margin-top: 100px;
     background-color: #a38e6a;
     padding: 0 100px;
+    /* kontener glowny na wszystko zwiazane z zagraj w fife */
 }
 .zagraj_w_fifa > h2{
     margin-bottom: 100px;
     padding-top: 50px;
     text-align: center;
     font-size: 60px;
+    /* h2 zagniezdzone bezposrednio w zagraj_w_fifa centruje i daje margines */
+
 }
 .flex_zagraj_w_fifa {
     display: flex;
     height: 800px;
     justify-content: space-between;
+    /* kontener trzyma zdjecia i tekst i dzieli je flexem */
 }
 .flex_zagraj_w_fifa div{
     width: 48%;
@@ -133,6 +144,7 @@ ol > li:hover > ul{
     height: 500px;
     object-fit: cover;
     border-radius: 20px;
+    /*Ustawia zdjecie na caly kontener i ucina to co wystaje, zaokragla rogi  */
 }
 .flex_zagraj_w_fifa div h3{ 
     width: 100%;
@@ -154,6 +166,8 @@ ol > li:hover > ul{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    /* ustawia wszystko w nowosciach tak aby bylo tyle samo pomiedzy nimi */
+
 }
 .nowosci > div {
     height: 800px;
@@ -174,9 +188,6 @@ ol > li:hover > ul{
     background-color: #a38e6a;
     margin-top: 125px;
 }
-.wiecej_w_fifa_flex {
-
-}
 .wiecej_w_fifa h2{
     margin-bottom: 100px;
     text-align: center;
@@ -186,6 +197,8 @@ ol > li:hover > ul{
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+    /* ustawia wszystko w wiecej_w_fifa_flex tak aby bylo tyle samo pomiedzy nimi */
+
 }
 .wiecej_w_fifa_flex > div{
     padding: 25px 20px;
@@ -210,6 +223,7 @@ ol > li:hover > ul{
   display: flex;
   align-items: center;
   justify-content: space-around
+  /* ustawia wszystko w klubach an flex na srodek i robi zeby mialy tyle samo miejsca miedzy soba */
 }
 .klub {
     border-radius: 25px;
@@ -218,6 +232,7 @@ ol > li:hover > ul{
   background-color: #a38e6a;
   display: flex;
   flex-direction: column;
+  /* zaokragla krawedzie, wyswietla flexa w kolumnach */
 }
 .img_klubu {
     display: flex;
@@ -250,6 +265,7 @@ ol > li:hover > ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* gdy cos wystaje to leci na dol przez flex wrap, ustawia wszystko tak ze jest miejsce miedzy nimi */
 }
 .trzymacz_zdjec > div {
     width: 47%;
@@ -262,6 +278,7 @@ ol > li:hover > ul{
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+  /* cover - przycina jak cos wystaje z konternera */
 
 }
 .trzymacz_zdjec > div:nth-of-type(odd) > img:hover{
